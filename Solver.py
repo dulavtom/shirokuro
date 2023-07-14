@@ -43,7 +43,7 @@ class Solver:
         """
         Transform given clause from symbolic representation into DIMACS representation
         :param clause: disjunction of literals we want to transform
-        :return:
+        :return: DIMACS clause
         """
         clause_dimacs = []
         for literal in clause:
@@ -159,7 +159,7 @@ class Solver:
     def generate_formula(self):
         """
         Generate all conditions to solve our problem. Here is the heart of the logic of the solver
-        :return:
+        :return: formula that encodes the whole problem
         """
         formula = []
 

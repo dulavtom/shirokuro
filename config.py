@@ -1,5 +1,5 @@
 import numpy as np
-
+# all attributes of the tiles in the puzzle
 vars = {"HEAD": 0, "FREE": 1,
         "NORTH": 2, "EAST": 3, "SOUTH": 4, "WEST": 5,
         "VERTICAL": 6, "HORIZONTAL": 7, "EMPTY": 8,
